@@ -1185,7 +1185,7 @@ accesskey:
 
 # 友情链接顶部相关配置
 linkPageTop:
-  enable: false
+  enable: true
   title: 与数百名博主无限进步
   # 添加博主友链的评论自定义格式
   addFriendPlaceholder: "昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"
@@ -1200,7 +1200,7 @@ agreementPopup:
 
 # 右键菜单
 rightClickMenu:
-  enable: false
+  enable: true
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
@@ -1210,7 +1210,7 @@ peoplecanvas:
 # 动效
 dynamicEffect:
   postTopWave: true # 文章顶部波浪效果
-  postTopRollZoomInfo: false # 文章顶部滚动时缩放
+  postTopRollZoomInfo: true # 文章顶部滚动时缩放
   pageCommentsRollZoom: false # 非文章页面评论滚动时缩放显示（仅仅Twikoo生效）
 
 # Inject
