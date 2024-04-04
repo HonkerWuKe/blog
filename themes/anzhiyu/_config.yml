@@ -30,12 +30,7 @@ nav:
       item:
         - name: 博客
           link: https://blog.anheyu.com/
-          icon: /img/favicon.ico
-    - title: 项目
-      item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
+          icon: https://wukeblog.ownd.top/logo.jpg
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -136,11 +131,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /favicon.ico
+favicon: https://wukeblog.ownd.top/logo.jpg
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: https://wukeblog.ownd.top/logo.jpg
   effect: false
 
 # Disable all banner image
