@@ -1,35 +1,35 @@
 menu:
-  文章:
-    隧道: /archives/ || anzhiyu-icon-box-archive
-    分类: /categories/ || anzhiyu-icon-shapes
-    标签: /tags/ || anzhiyu-icon-tags
+  # 文章:
+  #   隧道: /archives/ || anzhiyu-icon-box-archive
+  #   分类: /categories/ || anzhiyu-icon-shapes
+  #   标签: /tags/ || anzhiyu-icon-tags
 
-  友链:
-    友人帐: /link/ || anzhiyu-icon-link
-    朋友圈: /fcircle/ || anzhiyu-icon-artstation
-    留言板: /comments/ || anzhiyu-icon-envelope
+  # 友链:
+  #   友人帐: /link/ || anzhiyu-icon-link
+  #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
+  #   留言板: /comments/ || anzhiyu-icon-envelope
 
-  我的:
-    音乐馆: /music/ || anzhiyu-icon-music
-    追番页: /bangumis/ || anzhiyu-icon-bilibili
-    相册集: /album/ || anzhiyu-icon-images
-    小空调: /air-conditioner/ || anzhiyu-icon-fan
+  # 我的:
+  #   音乐馆: /music/ || anzhiyu-icon-music
+  #   追番页: /bangumis/ || anzhiyu-icon-bilibili
+  #   相册集: /album/ || anzhiyu-icon-images
+  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
-  关于:
-    关于本人: /about/ || anzhiyu-icon-paper-plane
-    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+  # 关于:
+  #   关于本人: /about/ || anzhiyu-icon-paper-plane
+  #   闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+  #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
-  enable: true
+  enable: false
   travelling: false
   clock: false
   menu:
     - title: 网页
       item:
         - name: 博客
-          link: https://blog.anheyu.com
+          link: https://blog.anheyu.com/
           icon: https://wukeblog.ownd.top/logo.jpg
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
@@ -449,9 +449,9 @@ footer:
       # - title: facebook
       #   link: https://www.facebook.com/profile.php?id=100092208016287&sk=about
       #   icon: anzhiyu-icon-facebook1
-       - title: RSS
-         link: atom.xml
-         icon: anzhiyu-icon-rss
+      # - title: RSS
+      #   link: atom.xml
+      #   icon: anzhiyu-icon-rss
     right:
       # - title: Github
       #   link: https://github.com/anzhiyu-c
@@ -462,11 +462,11 @@ footer:
       # - title: 抖音
       #   link: https://v.douyin.com/DwCpMEy/
       #   icon: anzhiyu-icon-tiktok
-       - title: CC
-         link: /copyright
-         icon: anzhiyu-icon-copyright-line
+      # - title: CC
+      #   link: /copyright
+      #   icon: anzhiyu-icon-copyright-line
   list:
-    enable: false
+    enable: true
     randomFriends: 3
     project:
       # - title: 服务
@@ -1136,30 +1136,30 @@ greetingBox:
   enable: true #开启后必须配置下面的list对应的时间段，不然会出现小白条
   default: 晚上好👋
   list:
-    greeting: 晚安😴
-    startTime: 0
-    endTime: 5
-    greeting: 早上好鸭👋, 祝你一天好心情！
-    startTime: 6
-    endTime: 9
-    greeting: 上午好👋, 状态很好，鼓励一下～
-    startTime: 10
-    endTime: 10
-    greeting: 11点多啦, 在坚持一下就吃饭啦～
-    startTime: 11
-    endTime: 11
-    greeting: 午安👋, 宝贝
-    startTime: 12
-    endTime: 14
-    greeting: 🌈充实的一天辛苦啦！
-    startTime: 14
-    endTime: 18
-    greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
-    startTime: 19
-    endTime: 19
-    greeting: 晚上好👋, 在属于自己的时间好好放松😌~
-    startTime: 20
-    endTime: 24
+    - greeting: 晚安😴
+       startTime: 0
+       endTime: 5
+    - greeting: 早上好鸭👋, 祝你一天好心情！
+       startTime: 6
+       endTime: 9
+    - greeting: 上午好👋, 状态很好，鼓励一下～
+       startTime: 10
+       endTime: 10
+    - greeting: 11点多啦, 在坚持一下就吃饭啦～
+       startTime: 11
+       endTime: 11
+    - greeting: 午安👋, 宝贝
+       startTime: 12
+       endTime: 14
+    - greeting: 🌈充实的一天辛苦啦！
+       startTime: 14
+       endTime: 18
+    - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
+       startTime: 19
+       endTime: 19
+    - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
+       startTime: 20
+       endTime: 24
 
 # 文章顶部ai摘要
 post_head_ai_description:
