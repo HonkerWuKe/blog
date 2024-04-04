@@ -440,28 +440,28 @@ footer:
     enable: true
     centerImg:
     left:
-      # - title: email
-      #   link: mailto:anzhiyu-c@qq.com
-      #   icon: anzhiyu-icon-envelope
-      # - title: 微博
-      #   link: https://weibo.com/u/6378063631
-      #   icon: anzhiyu-icon-weibo
-      # - title: facebook
-      #   link: https://www.facebook.com/profile.php?id=100092208016287&sk=about
-      #   icon: anzhiyu-icon-facebook1
+       - title: email
+         link: 1919968827@qq.com
+         icon: anzhiyu-icon-envelope
+       - title: 微博
+         link: https://weibo.com
+         icon: anzhiyu-icon-weibo
+       - title: facebook
+         link: https://www.facebook.com
+         icon: anzhiyu-icon-facebook1
       # - title: RSS
       #   link: atom.xml
       #   icon: anzhiyu-icon-rss
     right:
-      # - title: Github
-      #   link: https://github.com/anzhiyu-c
-      #   icon: anzhiyu-icon-github
-      # - title: Bilibili
-      #   link: https://space.bilibili.com/372204786
-      #   icon: anzhiyu-icon-bilibili
-      # - title: 抖音
-      #   link: https://v.douyin.com/DwCpMEy/
-      #   icon: anzhiyu-icon-tiktok
+       - title: Github
+         link: https://github.com
+         icon: anzhiyu-icon-github
+       - title: Bilibili
+         link: https://space.bilibili.com
+         icon: anzhiyu-icon-bilibili
+       - title: 抖音
+         link: https://v.douyin.com
+         icon: anzhiyu-icon-tiktok
       # - title: CC
       #   link: /copyright
       #   icon: anzhiyu-icon-copyright-line
@@ -469,43 +469,43 @@ footer:
     enable: true
     randomFriends: 3
     project:
-      # - title: 服务
-      #   links:
-      #     - title: 51la统计
-      #       link: https://v6.51.la/
-      #     - title: 十年之约
-      #       link: https://www.foreverblog.cn/
-      #     - title: 开往
-      #       link: https://github.com/travellings-link/travellings
-      # - title: 主题
-      #   links:
-      #     - title: 文档
-      #       link: /docs/
-      #     - title: 源码
-      #       link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-      #     - title: 更新日志
-      #       link: /update/
-      # - title: 导航
-      #   links:
-      #     - title: 即刻短文
-      #       link: /essay/
-      #     - title: 友链文章
-      #       link: /fcircle/
-      #     - title: 留言板
-      #       link: /comments/
-      # - title: 协议
-      #   links:
-      #     - title: 隐私协议
-      #       link: /privacy/
-      #     - title: Cookies
-      #       link: /cookies/
-      #     - title: 版权协议
-      #       link: /copyright/
+       - title: 服务
+         links:
+           - title: 51la统计
+             link: https://v6.51.la/
+           - title: 十年之约
+             link: https://www.foreverblog.cn/
+        #   - title: 开往
+        #     link: https://github.com/travellings-link/travellings
+       - title: 主题
+         links:
+           - title: 文档
+             link: /docs/
+           - title: 源码
+             link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+           - title: 更新日志
+             link: /update/
+       - title: 导航
+         links:
+           - title: 即刻短文
+             link: /essay/
+           - title: 友链文章
+             link: /fcircle/
+           - title: 留言板
+             link: /comments/
+       - title: 协议
+         links:
+           - title: 隐私协议
+             link: /privacy/
+           - title: Cookies
+             link: /cookies/
+           - title: 版权协议
+             link: /copyright/
   footerBar:
     enable: true
     authorLink: /
     cc:
-      enable: false
+      enable: true
       link: /copyright
     linkList:
       - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
@@ -564,10 +564,10 @@ microsoft_clarity:
 # Google Adsense (谷歌广告)
 google_adsense:
   enable: false
-  auto_ads: true
+  auto_ads: false
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client:
-  enable_page_level_ads: true
+  enable_page_level_ads: false
 
 # Insert ads manually (手动插入广告)
 # ad:
