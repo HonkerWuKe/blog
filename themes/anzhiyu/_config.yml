@@ -826,7 +826,7 @@ aside:
   card_webinfo:
     enable: true
     post_count: true
-    last_push_date: false
+    last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
 
 # busuanzi count for PV / UV in site
@@ -882,7 +882,7 @@ centerConsole:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     sort_order: # Don't modify the setting unless you know how it works
     highlightTags:
       # - Hexo
@@ -922,7 +922,7 @@ rightside_item_order:
 
 # medium-zoom
 # https://github.com/francoischalifour/medium-zoom
-medium_zoom: false
+medium_zoom: true
 
 # fancybox
 # http://fancyapps.com/fancybox/3/
@@ -1062,7 +1062,7 @@ home_top:
 
 # 朋友圈配置
 friends_vue:
-  enable: false
+  enable: true
   vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.1/friends/index.4f887d95.js
   apiurl: # 朋友圈后端地址
   top_tips: 使用 友链朋友圈 订阅友链最新文章
@@ -1074,7 +1074,7 @@ universe:
 
 # 页面卡片顶部气泡升起效果
 bubble:
-  enable: false
+  enable: true
 
 #  控制台打印信息
 console:
@@ -1090,7 +1090,7 @@ LA:
 diytitle:
   enable: true
   leaveTitle: w(ﾟДﾟ)w 不要走！再看看嘛！
-  backTitle: ♪(^∇^*)欢迎肥来！
+  backTitle: ♪(^∇^*)欢迎回来！
 
 # 留言弹幕配置
 comment_barrage_config:
@@ -1112,7 +1112,7 @@ nav_music:
   id: 8152976493
   server: netease
   volume: 0.7 # 默认音量
-  all_playlist: https://y.qq.com/n/ryqq/playlist/8802438608
+  all_playlist: https://y.qq.com/n/ryqq/playlist/9193823905
 
 # 路径为 /music 的音乐页面默认加载的歌单 1. nav_music 2. custom
 music_page_default: nav_music
