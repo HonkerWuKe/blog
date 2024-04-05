@@ -71,7 +71,7 @@ social:
 
 # 作者卡片 状态
 author_status:
-  enable: true
+  enable: false
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
@@ -84,8 +84,8 @@ author_status:
     # - 🧱 团队小组发动机
     # - 💢 壮汉人狠话不多
 
- search (搜索)
- see https://blog.anheyu.com/posts/c27d.html#搜索系统
+# search (搜索)
+# see https://blog.anheyu.com/posts/c27d.html#搜索系统
 # --------------------------------------
 
 # Algolia search
@@ -123,34 +123,34 @@ local_search:
 
 # MathJax
 mathjax:
-  enable: true
-  per_page: true
+  enable: false
+  per_page: false
 
 # KaTeX
 katex:
-  enable: true
-  per_page: true
+  enable: false
+  per_page: false
   hide_scrollbar: true
 
 # Image (图片设置)
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: source/logo.jpg
+favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: source/logo.jpg
-  effect: true
+  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  effect: false
 
 # Disable all banner image
-disable_top_img: true
+disable_top_img: false
 
 # The banner image of home page
-index_img: true # "background: url() top / cover no-repeat"
+index_img: false # "background: url() top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: true
+default_top_img: false
 
 cover:
   # display the cover or not (是否显示文章封面)
