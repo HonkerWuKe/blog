@@ -71,7 +71,7 @@ social:
 
 # 作者卡片 状态
 author_status:
-  enable: false
+  enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
@@ -84,8 +84,8 @@ author_status:
     # - 🧱 团队小组发动机
     # - 💢 壮汉人狠话不多
 
-# search (搜索)
-# see https://blog.anheyu.com/posts/c27d.html#搜索系统
+ search (搜索)
+ see https://blog.anheyu.com/posts/c27d.html#搜索系统
 # --------------------------------------
 
 # Algolia search
@@ -123,13 +123,13 @@ local_search:
 
 # MathJax
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
 
 # KaTeX
 katex:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
   hide_scrollbar: true
 
 # Image (图片设置)
