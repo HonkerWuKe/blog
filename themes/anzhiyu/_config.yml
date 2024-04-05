@@ -136,21 +136,21 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /favicon.ico
+favicon: source/logo.jpg
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
-  effect: false
+  img: source/logo.jpg
+  effect: true
 
 # Disable all banner image
-disable_top_img: false
+disable_top_img: true
 
 # The banner image of home page
-index_img: false # "background: url() top / cover no-repeat"
+index_img: true # "background: url() top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: false
+default_top_img: true
 
 cover:
   # display the cover or not (是否显示文章封面)
