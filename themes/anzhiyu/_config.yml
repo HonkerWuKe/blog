@@ -141,16 +141,16 @@ favicon: source/logo.jpg
 # Avatar (头像)
 avatar:
   img: source/logo.jpg
-  effect: false
+  effect: turn
 
 # Disable all banner image
-disable_top_img: false
+disable_top_img: turn
 
 # The banner image of home page
-index_img: false # "background: url() top / cover no-repeat"
+index_img: turn # "background: url() top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: false
+default_top_img: turn
 
 cover:
   # display the cover or not (是否显示文章封面)
