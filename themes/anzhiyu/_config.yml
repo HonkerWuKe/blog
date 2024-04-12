@@ -136,11 +136,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: https://raw.githubusercontent.com/HonkerWuKe/blog/main/source/logo.jpg
+favicon: /source/logo.jpg
 
 # Avatar (头像)
 avatar:
-  img: https://raw.githubusercontent.com/HonkerWuKe/blog/main/source/logo.jpg
+  img: /source/logo.jpg
   effect: false
 
 # Disable all banner image
