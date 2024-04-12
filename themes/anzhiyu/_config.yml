@@ -136,11 +136,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /favicon.ico
+favicon: https://raw.githubusercontent.com/HonkerWuKe/blog/main/source/logo.jpg
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: https://raw.githubusercontent.com/HonkerWuKe/blog/main/source/logo.jpg
   effect: false
 
 # Disable all banner image
