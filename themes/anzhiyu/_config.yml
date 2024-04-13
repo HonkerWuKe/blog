@@ -136,11 +136,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: source/logo.jpg
+favicon: sogo.jpg
 
 # Avatar (头像)
 avatar:
-  img: source/logo.jpg
+  img: sogo.jpg
   effect: turn
 
 # Disable all banner image
