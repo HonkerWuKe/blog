@@ -136,11 +136,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: source/logo.jpg
+favicon: https://wukeblog.ownd.top/logo.jpg
 
 # Avatar (头像)
 avatar:
-  img: source/logo.jpg
+  img: https://wukeblog.ownd.top/logo.jpg
   effect: turn
 
 # Disable all banner image
