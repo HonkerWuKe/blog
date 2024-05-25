@@ -29,13 +29,13 @@ nav:
     - title: 网页
       item:
         - name: 博客
-          link: /source/logo.jpg
-          icon: /source/logo.jpg
+          link: https://wukeblog.ownd.top/logo.jpg
+          icon: https://wukeblog.ownd.top/logo.jpg
     - title: 项目
       item:
         - name: 安知鱼图床
-          link: /source/logo.jpg
-          icon: /source/logo.jpg
+          link: https://wukeblog.ownd.top/logo.jpg
+          icon: https://wukeblog.ownd.top/logo.jpg
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
